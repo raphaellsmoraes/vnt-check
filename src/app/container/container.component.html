@@ -1,0 +1,7 @@
+<div class="center">
+  <h1 class="center__text glitch is-glitching" data-text="Ronaldo apertou o Play" [ngClass]="setTitle()">Ronaldo apertou o Play</h1>
+  <div class="outter_circle" (click)="toggle()" [ngClass]="setCircle()">
+    <h1 class="center__text glitch is-glitching" data-text="?">?</h1>
+  </div>
+  <h2 class="center__text glitch is-glitching" data-text="Ainda não!!!" *ngIf="isVisible">Ainda não!!!</h2>
+</div>
